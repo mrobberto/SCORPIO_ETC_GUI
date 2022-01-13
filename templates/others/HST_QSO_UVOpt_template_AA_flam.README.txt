@@ -1,0 +1,27 @@
+# Extracted from file: qso_template.fits
+#SIMPLETruefile does conform to FITS standard
+#BITPIX16number of bits per data pixel
+#NAXIS0number of data axes
+#EXTENDTrueFITS dataset may contain extensions
+#COMMENT  FITS (Flexible Image Transport System) format defined in Astronomy and
+#COMMENT  Astrophysics Supplement Series v44/p363, v44/p371, v73/p359, v73/p365.
+#COMMENT  Contact the NASA Science Office of Standards and Technology for the
+#COMMENT  FITS Definition document #100 and other FITS information.
+#ORIGINSTScI-STSDAS/TABLESTables version 1999-03-22
+#FILENAMEqso_template.fitsname of file
+#HISTORY  created 5-June-1996
+#DBTABLEcrgrid
+#DESCRIPTemplate UV + optical (0.08 - 0.6 micron) Spectrum of Bright QSO
+#SOURCEJ.R. Walsh, May 1996
+#TARGETIDBright QSO
+#OBSMODEUV + optical spectrum
+#COMMENT  Composite QSO spectrum from the Large Bright Quasar Survey
+#COMMENT  (LBQS) of Francis et al 1991 ApJ 373, 465
+#COMMENT  Units are flux per unit wavelength (i.e. scaled ergs/cm/cm/s/A)
+#COMMENT  normalized to a B magnitude of 12.5 (in STMAG units)
+#COMMENT  Resolution is ~4A and channels are 2.5A
+#COMMENT  Composite QSO spectrum, from Francis et al 1991 ApJ 373, 465
+#COMMENT  Rest wavelength (Angstroms) vs Flux (per unit wavelength)
+#  
+#Columns WAVELENGTH FLUX
+#Units  angstroms flam

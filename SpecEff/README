@@ -1,0 +1,43 @@
+
+This file contains the on-sky efficiency curves for MOSFIRE in each spectroscopic band. 
+The files called <band>eff.sm.[dat,fits] are ascii dumps and fits spectra of the efficiency
+curves that should be analogous to the "predicted" curves we have been using in the past. 
+That is, atmospheric absorption has been removed, and telescope reflectivity taken out so
+that they can be used in the same way in XTcalc. In other words, they are for MOSFIRE only.
+The telescope mirror reflectivity which reproduces the end to end throughput is
+
+   0.95 for K
+   0.94 for H
+   0.89 for J
+   0.85 for Y
+ 
+The files called mosfire_*spec_cal.fits are calibration spectra such that the Y-values
+are the flux density in ergs/s/cm^2/A per electron vs. wavelength. In other words, if 
+a spectrum is converted from ADU to electrons, multiplying it by the calibration curve
+will give an f_lambda calibrated spectrum. 
+
+The file mosfire_zeropts_and_backgrounds.pdf is just a text document with some of the 
+calculated numbers. 
+
+Note that the sky spectra will be in a separate tarball, called MosfireSkyspec.tar.
+
+Questions, please ask Chuck (ccs@astro.caltech.edu)
+
+**list of files**
+
+Heff.sm.dat
+Heff.sm.fits
+Jeff.sm.dat
+Jeff.sm.fits
+Keff.sm.dat
+Keff.sm.fits
+README
+Yeff.sm.dat
+Yeff.sm.fits
+mosfire_Hspec_cal.fits
+mosfire_Jspec_cal.fits
+mosfire_Jspec_cal.trim.fits
+mosfire_Kspec_cal.fits
+mosfire_Yspec_cal.fits
+mosfire_Yspec_cal.trim.fits
+mosfire_zeropts_and_backgrounds.pdf
